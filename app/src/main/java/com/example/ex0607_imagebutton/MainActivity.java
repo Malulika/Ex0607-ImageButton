@@ -1,4 +1,4 @@
-package com.example.imageview;
+package com.example.ex0607_imagebutton;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -38,14 +38,15 @@ public class MainActivity extends AppCompatActivity {
         int random = rand.nextInt(3) + 1;
         if(random==1) {
             iVMAIN.setImageResource(R.drawable.squirtle);
-
+            ib.setImageResource(R.drawable.one);
         }
         else if(random == 2) {
             iVMAIN.setImageResource(R.drawable.bulbasaur);
-
+            ib.setImageResource(R.drawable.two);
         }
         else if(random == 3) {
             iVMAIN.setImageResource(R.drawable.charmander);
+            ib.setImageResource(R.drawable.three);
 
         }
 
