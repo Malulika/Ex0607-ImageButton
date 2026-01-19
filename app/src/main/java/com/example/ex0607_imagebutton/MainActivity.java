@@ -18,8 +18,8 @@ import java.util.Random;
 
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView iVMAIN;
-    private Random rand = new Random();
+     ImageView iVMAIN;
+    Random rand = new Random();
 
     ImageButton ib;
 
